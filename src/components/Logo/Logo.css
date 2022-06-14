@@ -1,0 +1,20 @@
+.item {
+    width: 40%;
+    overflow: visible;
+    stroke: #4caf50;
+    stroke-width: 1;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  @media (max-width: 768px) {
+    .item {
+      width: 9  0%;
+    }
+  }
+  @media (max-width: 320px) {
+    .item {
+      width: 90%;
+    }
+  }
+  
